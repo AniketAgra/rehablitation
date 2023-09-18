@@ -1,0 +1,43 @@
+.container1{
+    display: grid;
+    margin: 30px;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+    align-content: space-between;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 60px;
+    overflow:visible;
+margin-left: 70px;
+text-align: center;
+font-size: x-large;
+}
+.head{
+    text-align: center;
+    font-size: 40px;
+    align-content: center;
+    margin-top: 80px;
+}
+.head:hover{
+    scale: 1.1;
+    transition-duration: 1s;
+    text-shadow: 5px 5px 10px grey;
+   
+}
+.card{
+    background-color: rgb(195, 209, 208);
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    font-style: oblique;
+    font-size: larger;
+    border-radius: 30px;
+   
+}
+.card:hover{
+    scale: 1.1;
+    transition-duration: 1s;
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 70px;
+    font-style: bold;
+}
